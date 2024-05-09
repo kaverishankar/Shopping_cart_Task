@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background-color: rgb(152, 151, 151);
+
+}
+
+nav {
+  padding: 10px 10px;
+  margin: 5px 100px 50px 100px;
+  color: white;
+}
+
+.contain {
+  background-color: whitesmoke;
+  color: black;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  border-style: outset;
+  border-color: red;
+}
+
+.product {
+  margin: 20px;
+  border: 2px groove red;
+  position: relative;
+}
+
+.proname {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar {
+  display: block;
+  padding: 10px;
+  float: left;
+}
+
+.footer {
+  height: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn:hover
+{
+    background-color: red;
+    color: white;
+}
